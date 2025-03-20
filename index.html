@@ -1,57 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="FORMULÁRIO">
-  <title>Formulário</title>
-  <link rel="stylesheet" href="FORMULÁRIO.css" />
-
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 <body>
-<h1>FORMULÁRIO DE PERGUNTAS</h1>
-<p>Responda as questões a baixo</p>
-<form action="">
-<fieldset>
-<label>
-  Nome
-</label>
-<br>
-<input type="text" name="nome"id="nome">
-<br>
-<label>Endereço</label>
-<br>
-<input type="text"name="idade"id="idade">
-<br>
-<label>Cor favorita</label>
-<br>
-<input type="text"name="cor favorita"id="cor favorita">
-</fieldset>
-<br>
-<label>QUAL O SEU FILME FAVORITO?</label>
-<input type="radio"name="FILME1"id="FILME1">Touro ferdinando
-<input type="radio" name="FILME2" id="FILME2">Coraline
-<input type="radio"name="FILME3"id="FILME3">O Segredo dos Animais
-<input type="radio"name="FILME4"id="FILME4">Deu a louca na chapeuzinho
-<br>
-<br>
-<label>QUAL O SEU LUGAR PARA PASSEAR?</label>
-<br>
-<select name="LUGAR" id="LUGAR">
-<option selected disabled value="selecione">selecione</option>
-<option value="CINEMA">Cinema</option>
-<option value="SORVETERIA">Sorveteria</option>
-<option value="LIVRARIA">Livraria</option>
-</select>
-<br>
-<br>
-<label>QUAL SUA ATIVIDADE FAVORITA?</label>
-<br>
-<input type="checkbox"name="LER"id="LER">Ler
-<input type="checkbox"name="DESENHAR"id="DESENHAR">Desenhar
-<input type="checkbox"name="ASSISTIR"id="ASSISTIR">Assistir
-<br>
-<br>
-<a href="https://classroom.google.com/u/0/c/NjI4MjUwNzg1NTA5">Enviar</a>
-</form>
+    <div class="container">
+        <h2>Cadastro de Usuário</h2>
+        <form id="form">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    </head>
 </body>
 </html>
